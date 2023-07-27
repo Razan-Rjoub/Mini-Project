@@ -1,0 +1,77 @@
+#color {
+    background-color: #FAF3F0;
+}
+
+.cardTasks {
+    background-color: rgba(0, 0, 0, 0.745);
+    width: 800px;
+    height: 600px;
+    margin-left: 600px;
+    margin-top: 200px;
+    overflow-y: auto;
+}
+
+.input-group {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.buttonAdd {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: #FFCACC;
+    border: 1px solid #FFCACC;
+    margin-right: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tasks {
+    background-color: #FFCACC;
+    width: 700px;
+    height: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+
+}
+
+.Task-name {
+    font-family: 'Times New Roman', Times, serif;
+    color: #FAF3F0;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-top: 20px;
+    font-size: 30px;
+
+}
+
+.bi {
+    color: white;
+
+}
+
+.iconbtn {
+    float: right;
+}
+.btnclick{
+    background-color: #FFCACC;
+    border: white;
+}
+#myDialog{
+    width: 350px;
+    height: 200px;
+    margin-bottom: 500px;
+}
+.inputedit{
+    font-size: 25px;
+    color: white;
+    background-color: #FFCACC;
+}
+.Save{
+ margin-top: 30px;
+margin-left: 100px;
+font-size: 30px;
+color: white;
+background-color: #FFCACC;
+}
