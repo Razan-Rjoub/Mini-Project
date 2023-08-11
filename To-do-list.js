@@ -15,7 +15,6 @@ function loadFromLocalStorage() {
     const storedData = localStorage.getItem('Tasks');
     if (storedData.length > 1) {
         arrData = JSON.parse(storedData);
-        console.log(arrData)
         createHTML();
     }
 }
@@ -24,7 +23,6 @@ loadFromLocalStorage();
 let i = 0;
 function create() {
     let createTask = document.getElementsByClassName('createtask')[0];
-
     arrData.push(createTask.value);
     localStorage.setItem('Tasks', JSON.stringify(arrData));
     createHTML();
@@ -40,7 +38,6 @@ function save() {
     arrData[temporarysave] = inedit.value;
     localStorage.setItem('Tasks', JSON.stringify(arrData));
     document.getElementById("myDialog").open = false;
-
     createHTML();
 }
 function Delete(index) {
@@ -59,7 +56,6 @@ function search(value) {
 
             tasks += `<div class='tasks'>
         <h4 class="Task-name"> ${arrData[i]}<span class="iconbtn" ><button class="btnclick" onclick="update(${i})" title="update"><i class="bi bi-pencil" ></i></button><button class="btnclick" onclick="Delete(${i})" title="delete"> <i class="bi bi-trash"></i></button></span> </h4></div>`;
-
         }
     }
     Tasks.innerHTML = tasks;
